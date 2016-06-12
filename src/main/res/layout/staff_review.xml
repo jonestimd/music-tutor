@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="@dimen/review_padding">
+
+    <io.github.jonestimd.android.quiz.view.QuestionImageView
+            android:id="@+id/staff_image_view"
+            android:layout_width="0px"
+            android:layout_height="@dimen/staff_review_height"
+            android:layout_weight="4"
+            android:background="@android:color/white"/>
+    <TextView
+            android:id="@+id/note_name"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="A"
+            style="@style/QuizText"
+            android:layout_gravity="center"
+            android:padding="@dimen/review_padding"
+            android:textSize="@dimen/review_text_size"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"/>
+    <TextView
+            android:id="@+id/note_name_hint"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:text="Every Good Boy Does Fine"
+            style="@style/QuizText"
+            android:layout_gravity="center"
+            android:padding="@dimen/review_padding"
+            android:textSize="@dimen/review_text_size"
+            android:layout_weight="3"
+            android:gravity="center_vertical|left"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<manifest package="io.github.jonestimd.android.music" xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:allowBackup="false">
+        <activity
+            android:name="io.github.jonestimd.android.music.SelectGroupsActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="section_names" android:resource="@array/section_names"/>
+        </activity>
+        <activity
+            android:name="io.github.jonestimd.android.quiz.activity.QuizActivity"
+            android:label="@string/title_activity_quiz">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.github.jonestimd.android.music.SelectGroupsActivity" />
+        </activity>
+        <activity
+            android:name="io.github.jonestimd.android.quiz.activity.ReviewActivity"
+            android:label="@string/title_activity_review">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="io.github.jonestimd.android.music.SelectGroupsActivity" />
+        </activity>
+    </application>
+</manifest>

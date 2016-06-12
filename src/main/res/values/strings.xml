@@ -1,0 +1,76 @@
+<resources>
+
+    <string name="app_name">Music Tutor</string>
+    <string name="note_name_question">What is this note?</string>
+    <string name="note_a">A</string>
+    <string name="note_b">B</string>
+    <string name="note_c">C</string>
+    <string name="note_d">D</string>
+    <string name="note_e">E</string>
+    <string name="note_f">F</string>
+    <string name="note_g">G</string>
+    <string name="note_type_question">What type of note is this?</string>
+    <string name="note_type_hint">Whole notes and half notes are hollow.  8th, 16th, 32nd, and 64th notes have flags.</string>
+    <string name="whole_duration">Whole</string>
+    <string name="half_duration">Half</string>
+    <string name="quarter_duration">Quarter</string>
+    <string name="eighth_duration">8th</string>
+    <string name="sixteenth_duration">16th</string>
+    <string name="thritysecond_duration">32nd</string>
+    <string name="sixtyfourth_duration">64th</string>
+    <string name="note_duration">%s note</string>
+    <string name="treble_space_hint"><![CDATA[The treble cleff spaces spell <u><b>FACE</b></u>]]></string>
+    <string name="treble_line_hint"><![CDATA[To remember the treble cleff lines use <u><b>E</b></u>very <u><b>G</b></u>ood <u><b>B</b></u>oy <u><b>D</b></u>oes <u><b>F</b></u>ine]]></string>
+    <string name="bass_space_hint"><![CDATA[To remember the bass cleff spaces use <u><b>A</b></u>ll <u><b>C</b></u>ows <u><b>E</b></u>at <u><b>G</b></u>rass]]></string>
+    <string name="bass_line_hint"><![CDATA[To remember the bass cleff lines use <u><b>G</b></u>ood <u><b>B</b></u>oys <u><b>D</b></u>o <u><b>F</b></u>ine <u><b>A</b></u>lways]]></string>
+
+    <string name="note_type_section">Note Type</string>
+    <string name="treble_clef_section">Treble Clef</string>
+    <string name="bass_clef_section">Bass Clef</string>
+
+    <string-array name="section_names">
+        <item>@string/note_type_section</item>
+        <item>@string/treble_clef_section</item>
+        <item>@string/bass_clef_section</item>
+    </string-array>
+
+    <string-array name="treble_hints">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item><![CDATA[Every Good Boy Does <b><u>F</u></b>ine]]></item>
+        <item><![CDATA[FAC<b><u>E</u></b>]]></item>
+        <item><![CDATA[Every Good Boy <b><u>D</u></b>oes Fine]]></item>
+        <item><![CDATA[FA<b><u>C</u></b>E]]></item>
+        <item><![CDATA[Every Good <b><u>B</u></b>oy Does Fine]]></item>
+        <item><![CDATA[F<b><u>A</u></b>CE]]></item>
+        <item><![CDATA[Every <b><u>G</u></b>ood Boy Does Fine]]></item>
+        <item><![CDATA[<b><u>F</u></b>ACE]]></item>
+        <item><![CDATA[<b><u>E</u></b>very Good Boy Does Fine]]></item>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+    </string-array>
+
+    <string-array name="bass_hints">
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+        <item><![CDATA[Good Boys Do Fine <b><u>A</u></b>lways]]></item>
+        <item><![CDATA[All Cows Eat <b><u>G</u></b>rass]]></item>
+        <item><![CDATA[Good Boys Do <b><u>F</u></b>ine Always]]></item>
+        <item><![CDATA[All Cows <b><u>E</u></b>at Grass]]></item>
+        <item><![CDATA[Good Boys <b><u>D</u></b>o Fine Always]]></item>
+        <item><![CDATA[All <b><u>C</u></b>ows Eat Grass]]></item>
+        <item><![CDATA[Good <b><u>B</u></b>oys Do Fine Always]]></item>
+        <item><![CDATA[<b><u>A</u></b>ll Cows Eat Grass]]></item>
+        <item><![CDATA[<b><u>G</u></b>ood Boys Do Fine Always]]></item>
+        <item/>
+        <item/>
+        <item/>
+        <item/>
+    </string-array>
+</resources>
